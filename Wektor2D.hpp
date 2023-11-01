@@ -21,7 +21,6 @@ public:
     {
         std::cout << '\n' << "X=" << iks << "   Y=" << igrek;
     }
-    informer i1;//Tworzony obiekt i1 klasy informer
 
     void setX(double  wczytywany_X)
     {
