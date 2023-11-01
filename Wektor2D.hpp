@@ -16,11 +16,11 @@ public:
 class Wektor2D
 {
     double norm() { return sqrt(X * X + Y * Y); }
-    double X, Y;
+    double X=0, Y=0;
 
 public:	
 
-    double iks, igrek;
+    double iks=0, igrek=0;
 	void print() { std::cout << '\n' << "X=" << X << "   Y=" << Y << "   norm=" << norm(); }
 
     Wektor2D() {}
