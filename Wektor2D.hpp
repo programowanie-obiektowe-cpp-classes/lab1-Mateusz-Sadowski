@@ -23,10 +23,7 @@ public:
     double iks=0, igrek=0;
 	void print() { std::cout << '\n' << "X=" << X << "   Y=" << Y << "   norm=" << norm(); }
 
-    Wektor2D() {
-        iks = X;
-        igrek = Y;
-    }
+    Wektor2D() {}
     Wektor2D(double X, double Y){
         iks = X;
         igrek = Y;
@@ -41,10 +38,12 @@ public:
     void setX(double  wczytywany_X)
     {
         X = wczytywany_X;
+        iks = X;
     }
     void setY(double wczytywany_Y)
     {
         Y = wczytywany_Y;
+        igrek = Y;
     }
     double getX()
     {
