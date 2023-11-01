@@ -46,11 +46,11 @@ public:
     }
     double getX()
     {
-        return iks;
+        return X;
     }
     double getY()
     {
-        return igrek;
+        return Y;
     }
 };
 
