@@ -23,9 +23,11 @@ public:
     double iks=0, igrek=0;
 	void print() { std::cout << '\n' << "X=" << X << "   Y=" << Y << "   norm=" << norm(); }
 
-    Wektor2D() {}
-    Wektor2D(double X, double Y)
-    {
+    Wektor2D() {
+        iks = X;
+        igrek = Y;
+    }
+    Wektor2D(double X, double Y){
         iks = X;
         igrek = Y;
         std::cout << '\n' << "X=" << iks << "   Y=" << igrek;
