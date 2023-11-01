@@ -60,7 +60,7 @@ public:
 Wektor2D operator+(Wektor2D normalny, Wektor2D przerobiony)
 {
 
-    return (Wektor2D(3., 3.));
+    return (Wektor2D(normalny.iks + przerobiony.iks, normalny.igrek + przerobiony.igrek));
 }
 //To samo dla operacji *, iloczyn skalarny
 double operator*(Wektor2D normalny, Wektor2D przerobiony)
