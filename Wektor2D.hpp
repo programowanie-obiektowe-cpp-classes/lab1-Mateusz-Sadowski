@@ -17,10 +17,6 @@ public:
         igrek = Y;
         std::cout << '\n' << "X=" << iks << "   Y=" << igrek;
     }
-    ~Wektor2D()
-    {
-        std::cout << '\n' << "X=" << iks << "   Y=" << igrek;
-    }
 
     void setX(double  wczytywany_X)
     {
