@@ -1,17 +1,5 @@
 #pragma once
 #include<iostream>
-class informer
-{
-public:
-    informer()
-    {
-        std::cout << '\n' << "Konstrukcja";
-    }
-    ~informer()
-    {
-        std::cout << '\n' << "Destrukcja";
-    }
-};
 
 class Wektor2D
 {
